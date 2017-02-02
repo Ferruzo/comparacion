@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="img/favicon.png">
+    <!-- Material Design fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/ripples.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Comparación</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <img class="navbar-brand" src="img/landing-logo.png" alt="">
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    <section>
+        <div class="container">
+            <div class="main-box">
+                <h1>Cuadro comparativo de plataformas de aprendizaje</h1>
+                <div>
+                    <p>Selecciona las plataformas que deseas comparar.</p>
+                    <a href="javascript:void(0)" class="btn btn-raised btn-compare">comparar</a>
+                    <a href="javascript:void(0)" class="btn btn-raised btn-reset">ver todos</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card-box">
+                    <img src="img/teachpitch.jpg" alt="">
+                    <div>
+                        <h3 class="name">Teach Pitch</h3>
+                        <p>Buscador de recursos de aprendizaje</p>
+                    </div>
+                    <div class="features-box">
+                        <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> No</span>
+                        <span><i class="material-icons">&#xE263;</i><b>Pago:</b> No</span>
+                        <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Total</span>
+                        <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                        <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                        <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                        <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, audios, workbooks, actividades, artículos, exámenes, juegos, lecciones</span>
+                        <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Se pueden buscar profesores y seguirlos. Se pueden ver y comentar los artículos que los demás comparten como una red social básica.</span>
+                    </div>
+                    <a href="https://teachpitch.com/" target="_blank" class="btn btn-raised">página web</a>
+                    <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#teachpitch">ver más</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card-box">
+                    <img src="img/mit.jpg" alt="">
+                    <div>
+                        <h3 class="name">MIT Open Courseware</h3>
+                        <p>Material de MIT disponisble en red</p>
+                    </div>
+                    <div class="features-box">
+                        <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> No</span>
+                        <span><i class="material-icons">&#xE263;</i><b>Pago:</b> No</span>
+                        <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> No</span>
+                        <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                        <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                        <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> No</span>
+                        <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, workbooks, artículos y reportes</span>
+                        <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Tiene el prestigio del MIT. Todos los cursos que ofrecen los han elaborado y revisado ellos mismos y son completamente gratis.</span>
+                    </div>
+                    <a href="https://ocw.mit.edu/index.htm" target="_blank" class="btn btn-raised">página web</a>
+                    <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#mit">ver más</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                    <div class="card-box">
+                        <img src="img/khan.jpg" alt="">
+                        <div>
+                            <h3 class="name">Khan Academy</h3>
+                            <p>Educación básica para niños</p>
+                        </div>
+                        <div class="features-box">
+                            <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                            <span><i class="material-icons">&#xE263;</i><b>Pago:</b> No</span>
+                            <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Total</span>
+                            <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                            <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> Sí</span>
+                            <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                            <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, juegos, lecciones</span>
+                            <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Cada vez que avanzas en los cursos, te dan medallas que puedes exhibir en tu perfil. Todo tu progreso es personalizado y se te muestran diversas estadísticas.</span>
+                        </div>
+                        <a href="https://www.khanacademy.org/" target="_blank" class="btn btn-raised">página web</a>
+                        <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#khan">ver más</button>
+                    </div>
+                </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card-box">
+                    <img src="img/acamica.jpg" alt="">
+                    <div>
+                        <h3 class="name">Acamica</h3>
+                        <p>Aprendizaje de Codigo y Diseño</p>
+                    </div>
+                    <div class="features-box">
+                        <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                        <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Subscripción</span>
+                        <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Total</span>
+                        <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                        <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                        <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                        <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes</span>
+                        <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Puedes crear y unirte a grupos. Tienes carreras a seguir y cursos por separado para complementar. Los videos son cortos de máximo 5 minutos y vienen con ejercicios. La interface es bastante amigable y limpia.</span>
+                    </div>
+                    <a href="https://www.acamica.com/" target="_blank" class="btn btn-raised">página web</a>
+                    <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#acamica">ver más</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="card-box">
+                    <img src="img/alison.jpg" alt="">
+                    <div>
+                        <h3 class="name">Alison</h3>
+                        <p>Centro Certificador (tercero y propio)</p>
+                    </div>
+                    <div class="features-box">
+                        <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                        <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Se paga para que no se muestre publicidad</span>
+                        <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                        <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                        <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                        <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                        <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos</span>
+                        <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Se pueden buscar profesores y seguirlos. Se pueden ver y comentar los artículos que los demás comparten como una red social básica.</span>
+                    </div>
+                    <a href="https://alison.com/" target="_blank" class="btn btn-raised">página web</a>
+                    <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#alison">ver más</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                    <div class="card-box">
+                        <img src="img/apna.jpg" alt="">
+                        <div>
+                            <h3 class="name">Apna Course</h3>
+                            <p>Centro certificador y formador</p>
+                        </div>
+                        <div class="features-box">
+                            <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                            <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Pase temporal</span>
+                            <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                            <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                            <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                            <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                            <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, audios, workbooks, actividades, artículos, exámenes, lecciones</span>
+                            <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Puedes seguir cursos de todo tipo y de empresas como HP. Cuenta con círculos sociales que funcionan como foros.</span>
+                        </div>
+                        <a href="https://www.apnacourse.com/" target="_blank" class="btn btn-raised">página web</a>
+                        <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#apna">ver más</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/gym.jpg" alt="">
+                       <div>
+                           <h3 class="name">Gymnasium</h3>
+                           <p>Cursos gratuitos de tecnología</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> No</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> No</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, foros</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Los cursos están bien organizados. Además, cuentan con una bolsa laboral en varias partes del mundo y te enseñan a prepararte para las entrevistas, organizar tu CV entre otros tips muy útiles.</span>
+                       </div>
+                       <a href="http://gymnasium.aquent.com/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#gym">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/canvas.jpg" alt="">
+                       <div>
+                           <h3 class="name">Canvas</h3>
+                           <p>Centro Certificador (tercero y propio)</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> No</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por curso</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, artículos y reportes</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Puedes enseñar cursos si cumples con los requisitos. Además, poseen una plataforma interna, donde tienen el calendario, cursos, mensajes, centro de ayuda, etc.</span>
+                       </div>
+                       <a href="https://www.canvas.net/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#canvas">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/dba.jpg" alt="">
+                       <div>
+                           <h3 class="name">Digital Business Academy</h3>
+                           <p>Skills para negocios digitales</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Solo es gratis en el Reino Unido</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos y exámenes</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b> Ofrece cursos para empezar y hacer crecer un negocio digital. Si completas los cursos, te ofrecen premios reales como mentoría de alguna empresa o membresias gratuitas.</span>
+                       </div>
+                       <a href="http://www.digitalbusinessacademyuk.com/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#dba">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/nextu.jpg" alt="">
+                       <div>
+                           <h3 class="name">Next U</h3>
+                           <p>Universidad digital</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por programa</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Temporal</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> Sí</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> No</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes y foros</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Acceso las 24 horas del día. Apoyo de tutores online, certificados con validez en LinkedIn. Cursos desarrollados por líderes de la industria.</span>
+                       </div>
+                       <a href="https://www.nextu.com/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#nextu">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/open.jpg" alt="">
+                       <div>
+                           <h3 class="name">Open Universities Australia</h3>
+                           <p>Lugar con cursos de terceros</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> No</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por certificación</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Mixta</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes y foros</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Puedes ver a tus amigos y la actividad reciente de todos. Te llegarán notificaciones con cursos nuevos o cuando hayas ganado una medalla. Sistema de mensajería.</span>
+                       </div>
+                       <a href="https://www.open2study.com//" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#open">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/people.jpg" alt="">
+                       <div>
+                           <h3 class="name">University of People</h3>
+                           <p>Universidad digital</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por programa</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Temporal</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Puedes ver a tus amigos y la actividad reciente de todos. Te llegarán notificaciones con cursos nuevos o cuando hayas ganado una medalla. Sistema de mensajería.</span>
+                       </div>
+                       <a href="http://www.uopeople.edu/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#people">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/edx.jpg" alt="">
+                       <div>
+                           <h3 class="name">Edx</h3>
+                           <p>Lugar con cursos de terceros</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por curso</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Mixto</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> No</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Puedes ver a tus amigos y la actividad reciente de todos. Te llegarán notificaciones con cursos nuevos o cuando hayas ganado una medalla. Sistema de mensajería.</span>
+                       </div>
+                       <a href="https://www.edx.org/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#edx">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/platzi.jpg" alt="">
+                       <div>
+                           <h3 class="name">Platzi</h3>
+                           <p>Cursos en diseño, desarrollo y marketing</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Subscripción</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes, streamings en vivo</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Puedes suscribirte anual o mensualmente con grandes descuentos. Hay cursos en vivo a través de streaming y puedes interactuar con el experto.</span>
+                       </div>
+                       <a href="https://platzi.com/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#platzi">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/coursera.jpg" alt="">
+                       <div>
+                           <h3 class="name">Coursera</h3>
+                           <p>Lugar con cursos de terceros</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por curso</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Mixta</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> No</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Obtén certificados al terminar los cursos. Cursos actualizados y populares de todo tipo. Cuenta con app para iOs y Android.</span>
+                       </div>
+                       <a href="https://es.coursera.org/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#coursera">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/plural.jpg" alt="">
+                       <div>
+                           <h3 class="name">Pluralsight</h3>
+                           <p>Cursos en diseño y desarrollo</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Subscripción</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Parcial</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Cualquier momento</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, actividades, artículos, exámenes y foros</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Busca cursos de una manera ordenada a través de su Dashboard. Tiene un "free trial" para probar la plataforma. Te muestra estadísticas de tu progreso y perfil.</span>
+                       </div>
+                       <a href="https://www.pluralsight.com/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#pluralsight">ver más</button>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                   <div class="card-box">
+                       <img src="img/udacity.jpg" alt="">
+                       <div>
+                           <h3 class="name">Udacity</h3>
+                           <p>Cursos de tecnología avanzados</p>
+                       </div>
+                       <div class="features-box">
+                           <span><b><i class="material-icons">&#xE32C;</i>Adaptable a móviles:</b> Sí</span>
+                           <span><i class="material-icons">&#xE263;</i><b>Pago:</b> Por programa</span>
+                           <span><i class="material-icons">&#xE853;</i><b>Personalización:</b> Total</span>
+                           <span><i class="material-icons">&#xE878;</i><b>Periodicidad:</b> Temporal</span>
+                           <span><i class="material-icons">&#xE80C;</i><b>Tutoría:</b> No</span>
+                           <span><i class="material-icons">&#xE7FB;</i><b>Comunidad:</b> Sí</span>
+                           <span><i class="material-icons">&#xE63A;</i><b>Recursos:</b> Videos, workbooks actividades, artículos, exámenes, foros, lecciones</span>
+                           <span><i class="material-icons">&#xE838;</i><b>Plus:</b>Sus programas fueron diseñados con la ayuda de empresas como Facebook, Google, IGM, Github, etc. Ofrece cursos del futuro.</span>
+                       </div>
+                       <a href="https://www.udacity.com/" target="_blank" class="btn btn-raised">página web</a>
+                       <button type="button" class="btn btn-raised modalbtn" data-toggle="modal" data-target="#udacity">ver más</button>
+                   </div>
+               </div>
+        </div>
+        <!-- Modal TEACH PITCH -->
+        <div id="teachpitch" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Teach Pitch</h4>
+              </div>
+              <div class="modal-body">
+                <p>TeachPitch es una plataforma de aprendizaje en la nube que ayuda a los profesores y escuelas a identificar los mejores recursos disponibles online.</p>
+                <h5>Beneficios</h5>
+                <div class="row text-center">
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE84E;</i>
+                         <span>Planifica tu propio desarrollo profesional y descubre tú mismo los mejores recursos.</span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE90F;</i>
+                         <span>Obtén las mejores ideas de aprendizaje de profesores de todo el mundo.</span>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE192;</i>
+                         <span>Ahorra tiempo y ve los contenidos más importantes de la manera más rápida.</span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE263;</i>
+                         <span>Gasta menos y compara los mejores materiales de aprendizaje antes de comprarlos.</span>
+                      </div>
+                   </div>
+                  </div>
+                  <h5>Buscador de cursos</h5>
+                  <p>Se pueden buscar los cursos por categorías y filtros (curso, a qué tipo de estudiantes te diriges, qué clase de material buscas y la duración de dicho material). Una vez encontrados, se pueden guardar.</p>
+                  <img src="img/teachpitch1.jpg" alt="">
+                  <h5>Newsfeed</h5>
+                  <p>Todos los cursos que guardaste y tus contactos guardaron se mostrarán en el Newsfeed. Aquí, podrás comentar los links y ponerles "me gusta".</p>
+                  <img src="img/teachpitch2.jpg" alt="">
+                  <h5>Mis recursos</h5>
+                  <p>TeachPitch cuenta con un almacenamiento personalizado. Todos los links previamente guardados pueden ser archivados en carpetas que tú mismo puedes crear.</p>
+                  <img src="img/teachpitch3.jpg" alt="">
+                  <h5>Buscador de profesores</h5>
+                  <p>A través de filtros (país, cursos, nivel escolar), puedes buscar profesores y seguirlos. </p>
+                  <img src="img/teachpitch4.jpg" alt="">
+                  <h5>Perfil</h5>
+                  <p>Es un perfil básico, donde puedes subir una foto de perfil y de portada. A través de google maps, muestran tu ubicación y se despliega información personal como: país, idiomas, dónde trabajas, por qué eres profesor y cómo se te puede ayudar. </p>
+                  <img src="img/teachpitch5.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Modal MIT-->
+        <div id="khan" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Khan Academy</h4>
+              </div>
+              <div class="modal-body">
+                <p>Khan Academy es una organización pequeña sin fines de lucro con una gran misión: una educación gratuita y de calidad mundial, para cualquier persona en cualquier parte.</p>
+                <h5>Beneficios</h5>
+                <div class="row text-center">
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE815;</i>
+                         <span>Puedes crear tu propia clase, agregar y administrar a tus alumnos.</span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE55A;</i>
+                         <span>Podrás ganar medallas y subir de niveles en cursos. Esto se mostrará en tu perfil.</span>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE431;</i>
+                         <span>Los cursos son diversos y muy didácticos. Cuentan con juegos y barra de progreso. </span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE263;</i>
+                         <span>Toda la información y los cursos son gratuitos. Si lo deseas, puedes hacer una donación.</span>
+                      </div>
+                   </div>
+                  </div>
+                  <h5>Buscador de cursos</h5>
+                  <p>Son cursos fijos con tablas de contenido.</p>
+                  <img src="img/khan1.jpg" alt="">
+                  <h5>Cursos</h5>
+                  <p>Se divide en una parte práctica, donde ves el contenido de todo el curso, y una parte de misiones, donde refuerzas lo aprendido.</p>
+                  <img src="img/khan2.jpg" alt="">
+                  <img src="img/khan3.jpg" alt="">
+                  <h5>Inicio</h5>
+                  <p>Se muestran tus cursos y misiones recientes. </p>
+                  <img src="img/khan4.jpg" alt="">
+                  <h5>Perfil</h5>
+                  <p>Se muestran todas las medallas ganadas, proyectos y estadísticas desde que te uniste.</p>
+                  <img src="img/khan5.jpg" alt="">
+                  <h5>Medallas</h5>
+                  <p>Las obtienes mediante logros, ya sea evaluando el proyecto de alguien o personalizando tu foto de perfil.</p>
+                  <img src="img/khan6.jpg" alt="">
+                  <h5>Progreso</h5>
+                  <img src="img/khan7.jpg" alt="">
+                  <h5>Discusión</h5>
+                  <img src="img/khan8.jpg" alt="">
+                  <h5>Proyectos</h5>
+                  <img src="img/khan9.jpg" alt="">
+                  <h5>Tutores</h5>
+                  <img src="img/khan10.jpg" alt="">
+                  <h5>Clase propia</h5>
+                  <p>Puedes crear tu propia clase y administrar a tus alumnos.</p>
+                  <img src="img/khan11.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+         <!-- Modal KHAN -->
+        <div id="mit" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">MIT Open Courseware</h4>
+              </div>
+              <div class="modal-body">
+                <p>"La idea es simple: publicar todos los materiales de nuestros cursos y hacer que estén completamente disponisbles para todos".</p>
+                <p><i>- Dick K.P. Yue, Professor, MIT School of Engineering</i></p>
+                <h5>Beneficios</h5>
+                <div class="row text-center">
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE192;</i>
+                         <span>Ahorra tiempo. No es necesario crearse una cuenta o entrar con Facebook o Google.</span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE84F;</i>
+                         <span>Tendrás el prestigio y respaldo de una institución importante como el MIT.</span>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE431;</i>
+                         <span>Los cursos son diversos. Te muestran el sílabo, lecturas, asignaturas y material descargable. </span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE263;</i>
+                         <span>Toda la información y los cursos son gratuitos. Si lo deseas, puedes hacer una donación.</span>
+                      </div>
+                   </div>
+                  </div>
+                  <h5>Buscador de cursos</h5>
+                  <p>Se pueden buscar los cursos por categorías y filtros (tema, subtemas, especialidad, videos, notas, trabajos, etc).</p>
+                  <img src="img/mit1.jpg" alt="">
+                  <h5>Cursos</h5>
+                  <p>Podrás ver quién dictó el curso, cuándo comenzó a dictarse y un resumen de lo que verás.</p>
+                  <img src="img/mit2.jpg" alt="">
+                  <h5>Sílabo</h5>
+                  <p>Puedes ver el sílabo de cada curso que quieras.</p>
+                  <img src="img/mit3.jpg" alt="">
+                  <h5>Lecturas</h5>
+                  <p>Puedes ver las lecturas del curso. Algunas están en Google Books, otras son gratuitas y algunas debes comprarlas en ebay. </p>
+                  <img src="img/mit4.jpg" alt="">
+                  <h5>Trabajos</h5>
+                  <img src="img/mit5.jpg" alt="">
+                  <h5>Material descargable</h5>
+                  <img src="img/mit6.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+         <!-- Modal ACAMICA -->
+        <div id="acamica" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Acamica</h4>
+              </div>
+              <div class="modal-body">
+                <p>Plataforma que enseña código y diseño para principiantes y expertos.</p>
+                <h5>Beneficios</h5>
+                <div class="row text-center">
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE04A;</i>
+                         <span>Los cursos se dividen en varios videos de 3 minutos aprox fáciles de entender.</span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE7FB;</i>
+                         <span>Puedes crear grupos y unirte a ellos. Tienes un foro para preguntas y discusiones.</span>
+                       </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE431;</i>
+                         <span>Los cursos son bastante completos y didácticos. Incluyen ejercicios y prácticas. </span>
+                      </div>
+                   </div>
+                   <div class="col-lg-3">
+                      <div class="benefit-card">
+                         <i class="material-icons benefit-icon">&#xE263;</i>
+                         <span>Siempre hay buenos descuentos para comprar la subscripción y te lo avisan por notificaciones.</span>
+                      </div>
+                   </div>
+                  </div>
+                  <h5>Cursos</h5>
+                  <p>Los cursos se muestran en una pantalla y se dividen en gratuitos, de paga y por niveles.</p>
+                  <img src="img/acamica1.jpg" alt="">
+                  <img src="img/acamica2.jpg" alt="">
+                  <h5>Panel del curso</h5>
+                  <img src="img/acamica3.jpg" alt="">
+                  <h5>Mapa del curso</h5>
+                  <img src="img/acamica4.jpg" alt="">
+                  <h5>Preguntas relacionadas del curso</h5>
+                  <img src="img/acamica5.jpg" alt="">
+                  <h5>Reseñas del curso</h5>
+                  <img src="img/acamica6.jpg" alt="">
+                  <h5>Configuración del curso</h5>
+                  <img src="img/acamica7.jpg" alt="">
+                  <h5>Carreras</h5>
+                  <img src="img/acamica8.jpg" alt="">
+                  <img src="img/acamica9.jpg" alt="">
+                  <h5>Comunidad</h5>
+                  <img src="img/acamica12.jpg" alt="">
+                  <h5>Grupos</h5>
+                  <img src="img/acamica10.jpg" alt="">
+                  <h5>Perfil</h5>
+                  <img src="img/acamica11.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Modal ALISON -->
+        <div id="alison" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Alison</h4>
+             </div>
+             <div class="modal-body">
+               <p>Ofrece cursos gratuitos de los mejores cursos del mundo.</p>
+               <h5>Beneficios</h5>
+               <div class="row text-center">
+                  <div class="col-lg-3">
+                     <div class="benefit-card">
+                        <i class="material-icons benefit-icon">&#xE84F;</i>
+                        <span>Ofrecen cursos de diferentes instituciones renombradas como Google y Microsoft.</span>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="benefit-card">
+                        <i class="material-icons benefit-icon">&#xE7FB;</i>
+                        <span>Tienen una parte comunitaria donde se pueden leer las últimas noticias de los estudiantes.</span>
+                      </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="benefit-card">
+                        <i class="material-icons benefit-icon">&#xE431;</i>
+                        <span>Los cursos tienen bastantes lecturas y artículos y cubren diversos temas. </span>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="benefit-card">
+                        <i class="material-icons benefit-icon">&#xE263;</i>
+                        <span>Ofrecen precios especiales para que no te salga tanta publicidad en los cursos.</span>
+                     </div>
+                  </div>
+                 </div>
+                 <h5>Cursos</h5>
+                 <img src="img/alison1.jpg" alt="">
+                 <img src="img/alison2.jpg" alt="">
+                 <img src="img/alison3.jpg" alt="">
+                 <img src="img/alison4.jpg" alt="">
+                 <h5>Comunidad</h5>
+                 <img src="img/alison5.jpg" alt="">
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+             </div>
+           </div>
+
+         </div>
+      </div>
+
+        <!-- Modal APNA COURSE -->
+        <div id="apna" class="modal fade" role="dialog">
+       <div class="modal-dialog">
+
+         <!-- Modal content-->
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">Apna Course</h4>
+           </div>
+           <div class="modal-body">
+             <p>Ofrece cursos gratuitos de los mejores cursos del mundo.</p>
+             <h5>Beneficios</h5>
+             <div class="row text-center">
+                <div class="col-lg-3">
+                   <div class="benefit-card">
+                      <i class="material-icons benefit-icon">&#xE84F;</i>
+                      <span>Ofrecen cursos de diferentes instituciones y profesionales.</span>
+                   </div>
+                </div>
+                <div class="col-lg-3">
+                   <div class="benefit-card">
+                      <i class="material-icons benefit-icon">&#xE7FB;</i>
+                      <span>Se pueden crear meetups y terner círculos sociales.</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                   <div class="benefit-card">
+                      <i class="material-icons benefit-icon">&#xE431;</i>
+                      <span>Los cursos tienen bastantes lecturas y artículos y cubren diversos temas. </span>
+                   </div>
+                </div>
+                <div class="col-lg-3">
+                   <div class="benefit-card">
+                      <i class="material-icons benefit-icon">&#xE263;</i>
+                      <span>Ofrecen precios especiales para acceder a los cursos por unos días.</span>
+                   </div>
+                </div>
+               </div>
+               <h5>Cursos</h5>
+               <img src="img/apna1.jpg" alt="">
+               <img src="img/apna3.jpg" alt="">
+               <h5>Círculos sociales</h5>
+               <img src="img/apna2.jpg" alt="">
+               <h5>Blogs y Artículos</h5>
+               <img src="img/apna4.jpg" alt="">
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+           </div>
+         </div>
+
+       </div>
+    </div>
+
+       <!-- Modal GYM -->
+      <div id="gym" class="modal fade" role="dialog">
+       <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Gymnasium</h4>
+         </div>
+         <div class="modal-body">
+            <p>Ofrece cursos gratuitos y una bolsa laboral en diversas partes del mundo.</p>
+            <h5>Beneficios</h5>
+            <div class="row text-center">
+               <div class="col-lg-3">
+                  <div class="benefit-card">
+                     <i class="material-icons benefit-icon">&#xE431;</i>
+                     <span>Ofrecen cursos orientados a la tecnológía y diseño.</span>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="benefit-card">
+                     <i class="material-icons benefit-icon">&#xE7FB;</i>
+                     <span>Cada curso tiene un área de foros donde puedes interactuar con otros.</span>
+                   </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="benefit-card">
+                     <i class="material-icons benefit-icon">&#xE8F9;</i>
+                     <span>Cuentan con una bolsa laboral en tecnología alrededor del mundo.</span>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="benefit-card">
+                     <i class="material-icons benefit-icon">&#xE838;</i>
+                     <span>Cuentan con un centro de carrera para ayudarte a mejorar tu CV, entrevistas laborales, etc.</span>
+                  </div>
+               </div>
+              </div>
+              <h5>Cursos</h5>
+              <img src="img/gym1.jpg" alt="">
+              <img src="img/gym2.jpg" alt="">
+              <img src="img/gym3.jpg" alt="">
+              <img src="img/gym4.jpg" alt="">
+              <img src="img/gym5.jpg" alt="">
+              <h5>Bookmarks</h5>
+              <img src="img/gym6.jpg" alt="">
+              <h5>Career Center</h5>
+              <img src="img/gym7.jpg" alt="">
+              <h5>Bolsa laboral</h5>
+              <img src="img/gym8.jpg" alt="">
+              <h5>Dashboard</h5>
+              <img src="img/gym9.jpg" alt="">
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+         </div>
+        </div>
+
+      </div>
+   </div>
+
+      <!-- Modal CANVAS -->
+     <div id="canvas" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+        <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">canvas</h4>
+        </div>
+        <div class="modal-body">
+           <p>Ofrece cursos online de universidades, institutos y organizaciones.</p>
+           <h5>Beneficios</h5>
+           <div class="row text-center">
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE431;</i>
+                    <span>Ofrecen cursos de universidades e instituciones de prestigio.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE871;</i>
+                    <span>Posee un dashboard ordenado para ver los cursos que llevarás.</span>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE80C;</i>
+                    <span>Puedes llegar a ser el profesor de un curso si cumples los requisitos.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE263;</i>
+                    <span>Se paga por curso, pero la gran mayoría de cursos es gratis.</span>
+                 </div>
+              </div>
+             </div>
+             <h5>Cursos</h5>
+             <img src="img/canvas1.jpg" alt="">
+             <img src="img/canvas2.jpg" alt="">
+             <img src="img/canvas3.jpg" alt="">
+             <img src="img/canvas4.jpg" alt="">
+             <img src="img/canvas5.jpg" alt="">
+             <h5>Perfil</h5>
+             <img src="img/canvas6.jpg" alt="">
+             <h5>Calendario</h5>
+             <img src="img/canvas7.jpg" alt="">
+             <h5>Mensajeria</h5>
+             <img src="img/canvas8.jpg" alt="">
+             <h5>Dashboard</h5>
+             <img src="img/canvas9.jpg" alt="">
+             <h5>Enseñanza de cursos</h5>
+             <img src="img/canvas10.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        </div>
+       </div>
+
+     </div>
+   </div>
+
+      <!-- Modal DBA -->
+     <div id="dba" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+        <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Digital Business Academy</h4>
+        </div>
+        <div class="modal-body">
+           <p>La Digital Business Academy es una plataforma gratuita en el Reino Unida que te enseña a empezar y hacer crecer un negocio digital.</p>
+           <h5>Beneficios</h5>
+           <div class="row text-center">
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE431;</i>
+                    <span>Ofrecen cursos para poder empezar y mejorar tu negocio digital.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE8F6;</i>
+                    <span>Si terminas los cursos, te dan descuentos especiales, membresias, mentorias, etc.</span>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE04A;</i>
+                    <span>Todos los cursos cuentan con videos y trabajos para presentar.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE263;</i>
+                    <span>Los cursos son gratis.</span>
+                 </div>
+              </div>
+             </div>
+             <h5>Cursos</h5>
+             <img src="img/dba1.jpg" alt="">
+             <img src="img/dba2.jpg" alt="">
+             <img src="img/dba3.jpg" alt="">
+             <img src="img/dba4.jpg" alt="">
+             <h5>Dashboard</h5>
+             <img src="img/dba5.jpg" alt="">
+             <h5>Certificados</h5>
+             <img src="img/dba6.jpg" alt="">
+             <h5>Premios</h5>
+             <img src="img/dba7.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        </div>
+       </div>
+
+     </div>
+   </div>
+
+      <!-- Modal NEXTU -->
+     <div id="nextu" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+        <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Next U</h4>
+        </div>
+        <div class="modal-body">
+           <p>Carreras en tecnología digital para trabajos en demanda. Cursos online creados por los mejores expertos. Acceso las 24 horas y asesoría de tutores en vivo.</p>
+           <h5>Beneficios</h5>
+           <div class="row text-center">
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE192;</i>
+                    <span>Acceso 24 horas al día para que aprendas a tu propio ritmo y en español.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE311;</i>
+                    <span>Apoyo privado de tutores online y videochat ‘Tutor Café’ para debatir temas en grupo.</span>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE80C;</i>
+                    <span>Certificados con aplicaciones internacionales y validez de LinkedIn.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE85D;</i>
+                    <span>Cientos de horas de ejercicios reales con las que puedes crear o enriquecer tu portafolio.</span>
+                 </div>
+              </div>
+             </div>
+             <h5>Inscripción</h5>
+             <p>A través de la página web, dejas tus datos y recibes este correo. En 2 minutos, recibes la llamada de una operadora, quien te habla de todo los beneficios de estudiar en Next U y te ofrece muchos descuentos.</p>
+             <img src="img/nextu1.jpg" alt="">
+             <h5>Pago</h5>
+             <p>El pago no se puede hacer a través de la página web. Debes llamar y una operadora te habilitará la cuenta. Pedí información por el curso de emprendimiento y me dijeron que costaba 3200 soles.</p>
+             <p>No se puede entrar a visualizar los cursos.</p>
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        </div>
+       </div>
+
+     </div>
+   </div>
+
+      <!-- Modal OPEN -->
+     <div id="open" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+        <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Open Universities Australia</h4>
+        </div>
+        <div class="modal-body">
+           <p>Carreras en tecnología digital para trabajos en demanda. Cursos online creados por los mejores expertos. Acceso las 24 horas y asesoría de tutores en vivo.</p>
+           <h5>Beneficios</h5>
+           <div class="row text-center">
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE53F;</i>
+                    <span>Puedes ver la actividad reciente de tu clase en tu inicio.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE7F7;</i>
+                    <span>Te llegarán notificaciones con cursos nuevos para aprender.</span>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE2C0;</i>
+                    <span>Podrás descargar todo el material y tus certificados.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE85D;</i>
+                    <span>Clases futuras para que organices tu tiempo y clases ya hechas.</span>
+                 </div>
+              </div>
+             </div>
+             <h5>Guía</h5>
+             <img src="img/open1.jpg" alt="">
+             <img src="img/open2.jpg" alt="">
+             <img src="img/open3.jpg" alt="">
+             <img src="img/open4.jpg" alt="">
+             <img src="img/open5.jpg" alt="">
+             <img src="img/open6.jpg" alt="">
+             <img src="img/open7.jpg" alt="">
+             <img src="img/open8.jpg" alt="">
+             <h5>Perfil</h5>
+             <img src="img/open9.jpg" alt="">
+             <h5>Curso</h5>
+             <img src="img/open10.jpg" alt="">
+             <img src="img/open11.jpg" alt="">
+             <img src="img/open12.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        </div>
+       </div>
+
+     </div>
+   </div>
+
+      <!-- Modal PEOPLE -->
+     <div id="people" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+        <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">University of People</h4>
+        </div>
+        <div class="modal-body">
+           <p>Es la primera universidad americana virtual.</p>
+           <h5>Beneficios</h5>
+           <div class="row text-center">
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE84E;</i>
+                    <span>Cuenta con diferentes becas escolares.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE84F;</i>
+                    <span>Respaldada por instituciones importantes como Microsoft.</span>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE55A;</i>
+                    <span>Tienen un sistema de selección riguroso para captar al mejor talento.</span>
+                 </div>
+              </div>
+              <div class="col-lg-3">
+                 <div class="benefit-card">
+                    <i class="material-icons benefit-icon">&#xE263;</i>
+                    <span>Ofrecen descuentos en temporadas del año.</span>
+                 </div>
+              </div>
+             </div>
+             <h5>Aplicación</h5>
+             <p>Debes llenar una aplicación y esperar a que te acepten.</p>
+             <img src="img/people1.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        </div>
+       </div>
+
+     </div>
+   </div>
+
+   <!-- Modal edx -->
+   <div id="edx" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Edx</h4>
+     </div>
+     <div class="modal-body">
+        <p>Tiene los mejores cursos de las instituciones top. Puedes aprender en cualquier lugar y en cualquier momento.</p>
+        <h5>Beneficios</h5>
+        <div class="row text-center">
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE85D;</i>
+                 <span>Cuenta con blogs y diferentes artículos.</span>
+              </div>
+           </div>
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE84F;</i>
+                 <span>Respaldada por instituciones importantes como Harvard y el MIT.</span>
+               </div>
+           </div>
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE02F;</i>
+                    <span>Cursos actualizados</span>
+              </div>
+           </div>
+          </div>
+          <h5>Dashboard</h5>
+          <img src="img/edx1.jpg" alt="">
+          <h5>Perfil</h5>
+          <img src="img/edx3.jpg" alt="">
+          <h5>Curso</h5>
+          <img src="img/edx4.jpg" alt="">
+          <img src="img/edx5.jpg" alt="">
+     </div>
+     <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+     </div>
+   </div>
+
+   </div>
+   </div>
+
+   <!-- Modal PLATZI -->
+   <div id="platzi" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Platzi</h4>
+     </div>
+     <div class="modal-body">
+        <p>Aprende diseño, desarrollo y marketing con clases en vivo de líderes de la industria.</p>
+        <h5>Beneficios</h5>
+        <div class="row text-center">
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE04B;</i>
+                 <span>Aprende y comunícate con los expertos a través de streamings en vivo</span>
+              </div>
+           </div>
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE915;</i>
+                 <span>Ofrece líneas de carrera completas.</span>
+               </div>
+           </div>
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE02F;</i>
+                    <span>Cursos actualizados y nuevos cursos todos los meses</span>
+              </div>
+           </div>
+          </div>
+          <h5>Cursos</h5>
+          <img src="img/platzi1.jpg" alt="">
+          <img src="img/platzi2.jpg" alt="">
+          <img src="img/platzi3.jpg" alt="">
+          <img src="img/platzi4.jpg" alt="">
+          <h5>Perfil</h5>
+          <img src="img/platzi5.jpg" alt="">
+          <h5>Calendario</h5>
+          <img src="img/platzi6.jpg" alt="">
+          <h5>Bolsa de trabajo</h5>
+          <img src="img/platzi7.jpg" alt="">
+          <h5>Streamings en vivo</h5>
+          <img src="img/platzi8.jpg" alt="">
+
+     </div>
+     <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+     </div>
+   </div>
+
+   </div>
+   </div>
+
+   <!-- Modal COURSERA -->
+   <div id="coursera" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Coursera</h4>
+     </div>
+     <div class="modal-body">
+        <p>Accede a los mejores cursos del mundo, en línea.</p>
+        <h5>Beneficios</h5>
+        <div class="row text-center">
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE865;</i>
+                 <span>Cursos de todas las materias y a cómodos precios.</span>
+              </div>
+           </div>
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE02F;</i>
+                    <span>Cursos actualizados y nuevos cursos todos los meses</span>
+              </div>
+           </div>
+          </div>
+          <h5>Cursos</h5>
+          <img src="img/coursera1.jpg" alt="">
+          <img src="img/coursera2.jpg" alt="">
+          <img src="img/coursera3.jpg" alt="">
+          <h5>Dashboard</h5>
+          <img src="img/coursera4.jpg" alt="">
+          <h5>Perfil</h5>
+          <img src="img/coursera5.jpg" alt="">
+     </div>
+     <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+     </div>
+   </div>
+
+   </div>
+   </div>
+
+   <!-- Modal PLURALSIGHT -->
+   <div id="pluralsight" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Pluralsight</h4>
+     </div>
+     <div class="modal-body">
+        <p>Welcome to Pluralsight. The on-demand technology learning platform you count on to stay relevant, with tools that measure your skills and solve your problems—faster.</p>
+        <h5>Beneficios</h5>
+        <div class="row text-center">
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE865;</i>
+                 <span>Cursos de desarrollo y diseño completos con videos cortos.</span>
+              </div>
+           </div>
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE6C4;</i>
+                    <span>Estadísticas en tu perfil y progreso.</span>
+              </div>
+           </div>
+          </div>
+          <h5>Membresía</h5>
+          <img src="img/plural1.jpg" alt="">
+          <h5>Carrera</h5>
+          <img src="img/plural2.jpg" alt="">
+          <img src="img/plural3.jpg" alt="">
+          <img src="img/plural4.jpg" alt="">
+          <img src="img/plural5.jpg" alt="">
+          <h5>Dashboard</h5>
+          <img src="img/plural6.jpg" alt="">
+          <h5>Perfil</h5>
+          <img src="img/plural7.jpg" alt="">
+     </div>
+     <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+     </div>
+   </div>
+
+   </div>
+   </div>
+
+   <!-- Modal UDACITY-->
+   <div id="udacity" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Udacity</h4>
+     </div>
+     <div class="modal-body">
+        <p>Welcome to Pluralsight. The on-demand technology learning platform you count on to stay relevant, with tools that measure your skills and solve your problems—faster.</p>
+        <h5>Beneficios</h5>
+        <div class="row text-center">
+           <div class="col-lg-3">
+              <div class="benefit-card">
+                 <i class="material-icons benefit-icon">&#xE865;</i>
+                 <span>Cursos de desarrollo del futuro. Debes mandar una solicitud para entrar.</span>
+              </div>
+           </div>
+          </div>
+          <h5>Cursos</h5>
+          <img src="img/udacity1.jpg" alt="">
+          <img src="img/udacity2.jpg" alt="">
+          <img src="img/udacity3.jpg" alt="">
+          <h5>Dashboard</h5>
+          <img src="img/udacity4.jpg" alt="">
+     </div>
+     <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+     </div>
+   </div>
+
+   </div>
+   </div>
+
+    </section>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="bootstrap/dist/js/material.js"></script>
+    <script src="bootstrap/dist/js/ripples.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
